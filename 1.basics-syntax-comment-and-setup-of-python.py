@@ -11,23 +11,96 @@
 # 4. Python Project https://www.youtube.com/watch?v=3lrbbB38zpU&list=PLK6wiPavf7Qj-NLJhbkxw9QfonweHafcN
 # 5. Tips and Trick for Development: https://www.youtube.com/watch?v=vPL6ODrfcwI&list=PLK6wiPavf7QiVLYXrC2TW_fdcZp57MgMB
 
-print('Welcome to the Party List Creater paltform')
 
-# Get number of party members
-try:
-    partyMembersNumber = int(input('Enter Number of Party Members: '))
+'''
+Editor:
 
-    if partyMembersNumber > 0:
-        print('Thanks for varifying the partymemeres number. \n\nYour party have {} members right.\n\nIf its right click y other wise n'.format(partyMembersNumber))
-        # verify the memebrs
-        yn = input('Enter y/n: ')
-        if yn == 'y':
-            print('Greate you verifyed your party members numebr. Lets create the list.')
+vs code
 
-            # create list of party members
-            partyMembers = []
-            # for 
-        else:
-            print('You want to change party memebres number. Lets start again with new numbers')
-except:
-    print('Only Numbers are allowed try again.')
+Python:
+    python.exe
+'''
+
+'''sytax
+
+initentation
+special char
+
+{}
+;
+()
+ kjkash
+            askjdfla
+
+    asjdhfkla
+
+intentaion:
+    same line of code ya same level of code
+'''
+
+
+print('Welcome to python')
+print('Welcome to python')
+print('Welcome to python')
+
+'''coditon
+loop:
+    for
+    while
+function'''
+
+'''
+if(condtion){
+    body of if;
+}
+'''
+
+if 5 > 1:
+    print('\nYes 5 is greater then 1')
+
+'''
+
+for(intiliaztion;conditon;increment/decremnet){
+    body of for loop
+}
+'''
+
+# iterater
+
+listval = [1,2,3,4,5,6]
+for a in listval:
+    print('A value: ',a)
+
+'''
+DataType:
+
+int
+float
+char
+string
+double
+array
+object
+boolean
+binary
+'''
+
+# operator
+
+x = 10
+
+
+# math
+# regex
+# random
+# sting / list / set / tuple / dict = submethod
+
+# datatype
+
+# comment single line / multi line
+
+# single line comment
+
+'''
+THis is multi line comment
+'''
