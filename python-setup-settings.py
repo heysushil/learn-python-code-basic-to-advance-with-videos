@@ -10,96 +10,130 @@
 # 4. Python Project https://www.youtube.com/watch?v=3lrbbB38zpU&list=PLK6wiPavf7Qj-NLJhbkxw9QfonweHafcN
 # 5. Tips and Trick for Development: https://www.youtube.com/watch?v=vPL6ODrfcwI&list=PLK6wiPavf7QiVLYXrC2TW_fdcZp57MgMB
 
-
 '''
-Editor:
+Python Code run karne ke liye setup:
 
-vs code
+Python exe file: https://www.python.org/ftp/python/3.8.3/python-3.8.3.exe
+Vs Code file: https://code.visualstudio.com/download#
+
+
+About Python:
+
+Assembly level lang
+Low levevl lang
+High level lang: c, c++, python
 
 Python:
-    python.exe
+
+variable
+datatype
+......
+
+{} ;
+
+asdfa
+    sadfas
+        asdfa
+
+Python: Basic and Adv.
+
+Web Development
+    App => Android / Ios
+sofware dev.
+math.
+system scripting
+
+    DataSci. : Amazon/Google
+    Machine learing
+        Numpy: Matrix
+    AI
+    Image processing
+
+Python: Libararys
+    Random
+    Regex
+    Database
+    Math: sin()
+
+Queston:
+What is datascience?
+What is bigdata?
+What is hadoop?
+What is regex in python?
 '''
 
-'''sytax
+print('Hello Python')
 
-initentation
-special char
 
-{}
-;
-()
- kjkash
-            askjdfla
-
-    asjdhfkla
-
-intentaion:
-    same line of code ya same level of code
+# VS Code
+'''
+1. Ptyhon + VS Code: is ko connect karne ke liye python extensiton install karna padega.
+2. python file create karna. save with .py extenstion
+3. .py file save karne ke baad edtior me python appear hoga.
+4. python code ko run karne ke liye editor me right top corne par gren play ka sign hai use click karna hai.
 '''
 
-
-print('Welcome to python')
-print('Welcome to python')
-print('Welcome to python')
-
-'''coditon
-loop:
-    for
-    while
-function'''
-
+# Python Indentation
 '''
 if(condtion){
-    body of if;
+    body of if
 }
 '''
+print('Hello Python again')
+print('Hello Python again')
 
-if 5 > 1:
-    print('\nYes 5 is greater then 1')
+if 4 > 3:
+    print('Ha 4 jo hai ye 3 se bada hain')
+
+
+# Python Comment
+
+# ye single line comment hai
+'''
+3 single ya double quote ke sath multi line comment ka use kiya jata hai
+
+PHP Comment
+// Single line
+/* */ Multi Line
+
+HTML
+<!-- --> Singl aur multiline ke liye
+
+CSS / JavaScript
+// Single line
 
 '''
 
-for(intiliaztion;conditon;increment/decremnet){
-    body of for loop
-}
+data = """
+Ye bhi multi line comment hain
+
+Kuch user details
+Name    Id
+A       7887
+B       89879
+"""
+print(data)
+
+# Python Variables
+'''
+1. variable case senstive hain
+2. variable kabhi bhi digit se start nahi hota hai
+3. variable me kewal under scroe use hota hai as special charater
+4. digt ka use varaible name ke bich me kya last me kar sakte hain
 '''
 
-# iterater
+_a = 5
+A_ = 10
+a00 = 15
+print('Varaibel values _a, A_, a00: ',_a)
 
-listval = [1,2,3,4,5,6]
-for a in listval:
-    print('A value: ',a)
+
+
 
 '''
-DataType:
-
-int
-float
-char
-string
-double
-array
-object
-boolean
-binary
-'''
-
-# operator
-
-x = 10
-
-
-# math
-# regex
-# random
-# sting / list / set / tuple / dict = submethod
-
-# datatype
-
-# comment single line / multi line
-
-# single line comment
-
-'''
-THis is multi line comment
+Queston:
+What is datascience?
+What is bigdata?
+What is hadoop?
+What is regex in python?
 '''

@@ -10,96 +10,97 @@
 # 4. Python Project https://www.youtube.com/watch?v=3lrbbB38zpU&list=PLK6wiPavf7Qj-NLJhbkxw9QfonweHafcN
 # 5. Tips and Trick for Development: https://www.youtube.com/watch?v=vPL6ODrfcwI&list=PLK6wiPavf7QiVLYXrC2TW_fdcZp57MgMB
 
-
 '''
-Editor:
+Topics:
 
-vs code
-
-Python:
-    python.exe
-'''
-
-'''sytax
-
-initentation
-special char
-
-{}
-;
-()
- kjkash
-            askjdfla
-
-    asjdhfkla
-
-intentaion:
-    same line of code ya same level of code
+Python Numbers:
+    int: har ek positve and negative number
+    float: decimal point number folat hote hain
+    complex: j se complex number ko denote kiya jata hai
 '''
 
+x = 787
+y = '787' # stirng 
+# type()
+print('\nX: ',type(x))
+print('Y: ',type(y))
 
-print('Welcome to python')
-print('Welcome to python')
-print('Welcome to python')
+if(x == y):
+    print('\n Yes x == y')
+else:
+    print('No x not = y')
 
-'''coditon
-loop:
-    for
-    while
-function'''
+
+# float
+x = 6.6
+print('\nX float type: ',type(x))
+
+# complex
+z = 6j
+print('\nTYpe of z: ',type(z))
+
+# Type Conversion
+# hum int ko float me ya fir in number dataypes ko ek dusre ke the conver kar sakte hain
+a = 6
+b = float(a)
+print('\nB type: ',type(b), 'Value of b: ', b)
+c = int(b)
+print('C ka type: ',type(c), 'Value of C: ',c)
+# int ya float ko complex number me conver kiya ja sakta hain
+# lekin comple ko int ya folat me convert nahi kiya ja sakta hain
+print('Type of a as complex convert : ',type(complex(a)), 'Value of comple: ',complex(a))
+e = 6j
+# print('\nComple to int: ',int(e))
+
+
+# Random Number
+# random python me pre installed aata hai.
+import random
+
+print('Random number: ',random.randrange(1000, 9999))
+
 
 '''
-if(condtion){
-    body of if;
-}
+Number System:
+1. binary (base 2)
+2. octal (base 8)
+3. decimal (base 10)
+4. hexadecimal (base 16)
+'''
+print('\n\nBinary to decimal: ',0b0111011000)
+print('\nOctal to Decimal: ',0o546546450)
+print('\nHexa to Decimal: ',0x86878ADF)
+
+# Python Decimal
+import decimal
+# normal decilmal number
+print('\nNormal decimal: ', 0.1)
+# using decimal library
+print('\nUsing Decimal: ',decimal.Decimal(0.1))
+# decimal libary use karne ka resion
+'''
+jab hame finacial result nikalna ho to decimal lib sahi hai
+jab kabhi bhi actual decimal points cahiye tab bhi iska use kar
 '''
 
-if 5 > 1:
-    print('\nYes 5 is greater then 1')
+# Python Mathematics
+import math
+# har ek library ke andar jo methods hai wo specific number of arguments accept karte hain.
+print('\nPi: ',math.pi)
+print('Cos of pi: ',math.cos(math.pi))
+print('Exp of 10: ',math.exp(10))
+# print(math.)
 
 '''
+Excersices:
 
-for(intiliaztion;conditon;increment/decremnet){
-    body of for loop
-}
+1. conver int flat and complex varable me valus ko store karke and direct prine me convertion ka output bhi show karna hai.
+2. math lib ka use karke uske kuch ek method ko print karna hai
+3. math lib ke pi value ko decimal lib ke Decimal method me use kar ke chek karna hai.
 '''
 
-# iterater
-
-listval = [1,2,3,4,5,6]
-for a in listval:
-    print('A value: ',a)
-
 '''
-DataType:
-
-int
-float
-char
-string
-double
-array
-object
-boolean
-binary
-'''
-
-# operator
-
-x = 10
-
-
-# math
-# regex
-# random
-# sting / list / set / tuple / dict = submethod
-
-# datatype
-
-# comment single line / multi line
-
-# single line comment
-
-'''
-THis is multi line comment
+Questions:
+1. random library ko padhna hai aur is ke kuch aur method ka work dekhna hain
+2. random, decimal and math lib ke baare me padhna hai
 '''
