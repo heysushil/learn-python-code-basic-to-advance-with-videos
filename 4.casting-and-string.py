@@ -99,7 +99,7 @@ print(a + ' ' + b)
 print('\n Hello Vikash welcome to {} {}'.format(a,b))
 
 # Escape Character
-print('\bHello team\\s')
+print('\\bHello team\\s')
 
 '''
 Excercise:
