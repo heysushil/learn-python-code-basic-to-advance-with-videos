@@ -15,15 +15,26 @@
 Topics: Boolean Number System
 '''
 # Boolean Values: True & False
-print(5 > 6)
+print(15 > 6)
 if 5 < 6:
     print('Yes its right')
 else:
     print('No itr not right')
+
+
 # Evaluate Values and Variables bool()
-print(bool('adf'))
+
+# jab bhi bool() method ke andar 1 ya 1 se greate ya any string value ho to ye hame true
+print('\nCHeck number: ',bool(888687))
 print(bool(0))
 print(bool())
+name = input('Enter your name: ')
+# print('Nmae: ',bool(name))
+if bool(name) == True:
+    print('\nUser enter his name.')
+else:
+    print('\nUser not enterd his name')
+
 
 def check():
     message = 'Hello check method'
@@ -42,12 +53,45 @@ Topics: Operators
 
 Arithmetic operators: +, -, *, /, %, **, //
 Assignment operators: =, +=, -=, *=, /=, %=, **=, //=,
-Comparison operators
-Logical operators
+Comparison operators: < > >= <= == != !< !>
+Logical operators: and or not
 Identity operators
 Membership operators
 Bitwise operators
 '''
+x = 10
+y = 9
+print('\nCheck 8==9', 8 == 9)
+print('\nCheck 8!=9', 8 != 9)
+
+blue = 10
+red = 15
+green = 5
+if not(blue > green):
+    print('\nGreen and blue > green')
+else:
+    print('blue > green not accepted')
+
+name = 'python is program'
+
+# print('python' is name)
+
+print('python' not in name)
+
+# if 5 > 3 & 5 < 10:
+#     print('Yes')
+a =5
+b = 10
+c = 20
+if a > b:
+    print('a > b')
+elif b > c:
+    print('b > c')
+else:
+    print('non of the condion satifsyed')
+    
+
+
 
 
 '''
@@ -57,3 +101,16 @@ Question:
 
 
 '''
+
+
+'''
+Excercise:
+
+1. create a program in which get the input by two users as a 2 numbers and if the user one number is greater then the user two then show the message that the user one's number is greater and user one win or otherwise show the wining message for user two.
+
+2. program banao jisme 5 user input a,b,c,d,e le rahe ho  aur inmes agar a,b,c ki value d,e se greate hai to output show karoa nahi to de ki value show karo
+
+3. 2 value ke bich sabhi arithmatic operations perform karne ka program bano
+'''
+
+

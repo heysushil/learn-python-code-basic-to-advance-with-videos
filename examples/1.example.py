@@ -20,7 +20,7 @@ The numbers obtained should be printed in a comma-separated sequence on a single
 '''
 
 l = []
-for a in range(100, 200):
+for a in range(1, 100):
     if a % 7 == 0 and a % 5 != 0:
         l.append(str(a))
 
