@@ -4,9 +4,10 @@ x = 746473
 listval = [1,2,3,4,5,6]
 print(type(listval))
 # list ki indexing wo 0 se start hoti
-print(listval[1])
+print(listval[0])
 
-listval = ['hello','7637',8383738,'python']
+listval = ['hello','7637',8383738,'python',['hello','7637',8383738,'python']]
+print(listval[4])
 print(listval[0:3]) #n-1
 # posstive aur negative / range isme hame hamesa 2 pont milee hain.
 # start aur end
@@ -50,7 +51,25 @@ print('sor: ',listnum)
 listnum.reverse()
 print('sort: ',listnum)
 print('Final list: ',listval2)
+print(listval.append)
 
+'''
+add value
+add list
+list ke end me value add hoti hai
+
+clear se puri lest clear ho rahi
+
+'''
+
+listval.clear()
+
+del listval
+
+'''
+Question:
+
+'''
 
 '''
 Excersice:
