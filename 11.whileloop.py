@@ -11,66 +11,67 @@
 # 5. Tips and Trick for Development: https://www.youtube.com/watch?v=vPL6ODrfcwI&list=PLK6wiPavf7QiVLYXrC2TW_fdcZp57MgMB
 
 
-# set: set unindex form values
+# loop: while / for
 
-a = {3,4,5,6,7,8,97,7}
-b = {4,4,3,3,32,3,4,5,6}
+if 10 > 15:
+    print('this is if conditon')
+else:
+    print('all condtions are worng')    
 
-print('a: ',a)
-
-# add()
-a.add(8787)
-print('a.add(8787): ',a)
-
-# update()
-a.update([37737,3434,3434])
-print('a: ',a)
-
-# len()
-print('len: ',len(a))
-
-# remove
-# a.remove(37737)
-# a.remove(37737)
-
-a.discard(37737)
-a.discard(37737)
-
-# pop()
-a.pop()
-
-# clear
-a.clear()
-
-# del
-
-print('final a: ',a)
-
-print('\nb: ',b)
-c = {34,343,4,5,5,4,5,484}
-print('c: ',c)
+'''
+do{
+    do body
+}while(condtion);
 
 
-uniq = b.union(c)
-print('uniq: ',uniq)
+In codntion only runs if or else dependns on thier contions
 
-common = b.intersection(c)
-print('common: ',common)
-
-diff = b.difference(c)
-print('diff: ',diff)
-
-b.intersection_update(c)
-print('inter update: ',b)
-
-b.difference_update(c)
-print('diffupdate: ',b)
-
-print('isdis: ',c.isdisjoint(b))
-
-print('c.issubset(b): ',c.issubset(b))
-b = {3,4,5,6,9}
-c = {3,4,5,6,9,4,4555,6677,55}
-print('c.issuperset(b): ',c.issuperset(b))
+In loop if we use else then doesn't matter loop is running or not but else away show it's massage
 
 
+While: in while we use condion
+
+For: but in for loop be are useing identity operator to perform iteration
+'''
+
+'''
+intilization
+while condtion:
+    body of while
+    increment/decremnt
+'''
+
+print('\n')
+a = 1
+while a <= 10:
+    print(a)
+    a += 1
+# using else to get the message
+else:
+    print('end of whille loop')
+
+
+# break
+user = ['ram','syam','seeta','geeta']
+a = 0
+u = len(user)
+# print(u)
+# exit()
+while a < u:
+    print(user[a])
+    if 'syam' in user:
+        print('\nWe found syam')
+        break
+    a += 1
+
+# continue: it use to skip the value which we found
+while a < 10:
+    a += 1
+    # print(user[a])
+    if a == 5:
+        print('\nWe found syam')
+        continue
+    print(a)
+
+
+# tuple
