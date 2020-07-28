@@ -37,6 +37,7 @@ class AClassParent:
         -----------------------------------
         User Name: {}        
         '''.format(self.name))
+    # userNameOutpue('Selargu')
 
 # child class
 # know we are inherit parent class 
@@ -108,7 +109,8 @@ class ChildClassUsing2parentClass(MainClass1, MainClass2):
         MainClass2.__init__(self, secondComapy)
         self.message = message
 
-    def messageOutput(self):
+    def messageOutput(self, username):
+        print('Username:  ',username)
         print('Welcome to our channel.')
 
 
@@ -118,7 +120,7 @@ childObjFor2Parent.firstComapnyName()
 # second parent mehtod
 childObjFor2Parent.seconCompanyName()
 # child message methos
-childObjFor2Parent.messageOutput()
+childObjFor2Parent.messageOutput('Mr. Sachin Kumar')
 
 '''
 Program:
