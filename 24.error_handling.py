@@ -6,7 +6,7 @@ except:
 finally:
 else:
 '''
-# print(name)
+print(name)
 
 try:
     # name = '\nheysushil'

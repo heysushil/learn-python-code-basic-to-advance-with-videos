@@ -1,47 +1,29 @@
 '''
 Python:
     Basic:
-        varaibel
-        datatype
+        variables
+        datatypes
         operatores
-        condtion
+        conditon
         loop
         function
 
     Advance:
-        Opp's:
+        OPP's:
             class
-            object
-            inheritacane
-                mutlilevel
-                multiple
-            poly
-            enc
+            inheritance
 
-        file handling: create / update / delete
-        libarys / modules
-        error handling
+        file hanldin: create / update / delete
+        error hanlding
 
     Database:
-        MySQL: create/read/update/delete
-
-    Project
-
-
-html=>java=>data=>database
-
-<form action="java path" method="get/post"> 
-
-
-php => web development
-
-    html + java + database
-
-java => bank / secrity    
-
-
-Python: ml / ai / datasci
-    Framework: Web Developemtn
-
+        mysql:
+            create database
+            create table
+                insert
+                update
+                delete
+            table delete
+            dataabse deelte
 
 '''
