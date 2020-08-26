@@ -49,3 +49,8 @@
 
 1. Relational Database
 2. Non-Relational Database: No-SQL / MongoDB
+
+## Setep to setup XAMPP and mysql connection with python
+
+1. [XAMPP Server](https://www.apachefriends.org/index.html)
+1. Run this command on terminal = pip install mysql-connector 
