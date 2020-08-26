@@ -16,8 +16,9 @@ Jab hum apna database create kar lenge then hum 4th agrument connect method ke a
 Jo ki hamare database ka name hoga. Like as ki hum database ka name denge - heysushil_python
 '''
 
+# import mysql connection libary to finally connetct mysql with python.
 import mysql.connector as con
 
-mydb = con.connect(host='localhost', user='root', password='')
+mydb = con.connect(host='localhost', user='root', password='', database='heysushil_python')
 
-print('\n', mydb)
+# print('\n', mydb)
