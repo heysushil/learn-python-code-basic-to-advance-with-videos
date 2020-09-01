@@ -21,4 +21,6 @@ import mysql.connector as con
 
 mydb = con.connect(host='localhost', user='root', password='', database='heysushil_python')
 
+# create cursor to use for furder
+mycursor = mydb.cursor()
 # print('\n', mydb)
