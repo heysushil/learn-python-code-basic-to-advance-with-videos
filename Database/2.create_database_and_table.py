@@ -33,3 +33,4 @@ mycursor.execute('CREATE DATABASE IF NOT EXISTS heysushil_python')
 # create table in our database
 # sr / goods_name / price / dates / person
 mycursor.execute('CREATE TABLE IF NOT EXISTS aug_month(sr INT(10) NOT NULL AUTO_INCREMENT PRIMARY KEY, goods_name VARCHAR(250), price INT(8), dates VARCHAR(12), person VARCHAR(100))')
+
