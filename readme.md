@@ -1,5 +1,44 @@
 # Online Python Class excercise ke sath (पाइथान बेसिक और अड्वान्स कान्सेप्ट उद्धारण के साथ) with YouTube Videos and Excercises. Visit [Python Online Class on Hey Sushil](https://www.youtube.com/playlist?list=PLK6wiPavf7QgnXqPf9jBEVr1iNUxiVoHG)
 
+### Full python course me following topics cover kiyea hun:
+
+1. Python Basic concepts:
+    1. Python varaible
+    2. Python datatypes: 7 diffrent datatypes
+    3. Python operatores: 7 categories
+    4. Python condtion: if elif else
+    5. Python loop: for and while
+    6. Python function: four behaviours with arg and return
+    7. Python lambda function
+2. Python Advance concepts:
+    1. Python OOP's concept: class and object
+    2. Python inheritance: multilevel and multipal
+    3. Python iter() and next() methods
+    4. Python scope
+    5. Python librarys or modules
+    6. Python libraray: datetime
+    7. Python libraray: math
+    8. Python libraray: JSON
+    9. Python libraray: PIP pacakge
+    10. Python error handling: try except else finally
+    11. Python string: formate
+    12. Python file handling: create read update delete
+    13. Python file handling: create delete folder
+3. Python with DataBase
+    1. Python with DataBase: XAMPP server setup
+    2. Python with DataBase: create database and table
+    3. Python with DataBase: select and where query
+    4. Python with DataBase: All available keywords
+    5. Python with DataBase: update and delete row data
+    6. Python with DataBase: Join tables
+    7. Python with DataBase: Delete table and database
+4. Python Extra work
+    1. Python: Excersice and Practice
+    2. Python: Project discussion
+5. Interview Prepration:
+    1. Python: Interview prepration
+    2. Python: Tips and Guidens for Job
+
 ### प्रोफाइल और यूट्यूब चैनल को फॉलो और सबस्क्राइब जरूर करो। क्योंकि अभी काफी कुछ सीखना बाकी है। 
 
 ### मेरे Youtube चैनल को सबस्क्राइब करना ना भूलो ताकि आपको कोड का पूरा फ़्लो समझमे आए - [Hey Sushil YouTube Channel](https://www.youtube.com/channel/UCphs2JfmIClR62wbyf76HDg)
