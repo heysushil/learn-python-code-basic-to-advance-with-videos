@@ -1,5 +1,5 @@
 '''
-Python excercise list with Hey Sushil:
+Python excercise list 2 with Hey Sushil:
 
 1. Jiasa likha hai waise hi output me show karna hai? Hint: str
 2. Python ya PIP ka version kaise pata kare? Hint: cmd command
